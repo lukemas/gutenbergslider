@@ -1,0 +1,43 @@
+.slider {
+    padding: 0 0 5px;
+}
+.slider .slides img {
+    height: 80vh;
+    width: auto;
+    padding: 2vh;
+
+}
+.slider.is-admin:before {
+    display: block;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    position: absolute;
+    z-index: 1;
+}
+.slides {
+    position:relative;
+    width: 100%;
+}
+
+.slides h1 {
+    width: 80%;
+    display: block;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%); 
+    transform: translate(-50%,-50%);
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-size: 60px; 
+    font-weight: bold;
+    color: #fff;
+    line-height: 70px;
+    text-align: center; 
+    margin: 0; 
+    z-index: 9;
+}
+
