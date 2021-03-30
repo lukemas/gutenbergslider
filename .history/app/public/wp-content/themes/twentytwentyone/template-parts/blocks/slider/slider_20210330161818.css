@@ -1,10 +1,7 @@
 .slider {
     padding: 0 0 5px;
 }
-.slider .slides img {
-    padding: 2vh;
 
-}
 .slider.is-admin:before {
     display: block;
     content: "";

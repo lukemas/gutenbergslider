@@ -35,9 +35,7 @@ $image = get_sub_field('image');
 ?>
 <div>
     <?php echo wp_get_attachment_image( $image['id'], 'medium' ); ?>
-    <div class="image-header">
-    <div><?php the_sub_field('image_header'); ?></div>
-    </div>
+    <h4 class="image-header"><?php the_sub_field('image_header'); ?></h4>
     </div>
     <?php endwhile; ?>
     </div>

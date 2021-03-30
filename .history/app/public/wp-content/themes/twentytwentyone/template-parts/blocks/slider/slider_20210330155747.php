@@ -33,11 +33,9 @@ if( !empty($block['align']) ) {
 <?php while( have_rows('slides')): the_row();
 $image = get_sub_field('image');
 ?>
-<div>
+<div class="image-header">
     <?php echo wp_get_attachment_image( $image['id'], 'medium' ); ?>
-    <div class="image-header">
     <div><?php the_sub_field('image_header'); ?></div>
-    </div>
     </div>
     <?php endwhile; ?>
     </div>

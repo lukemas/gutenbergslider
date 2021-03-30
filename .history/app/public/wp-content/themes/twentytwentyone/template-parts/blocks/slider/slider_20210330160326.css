@@ -2,6 +2,8 @@
     padding: 0 0 5px;
 }
 .slider .slides img {
+    height: 80vh;
+    width: auto;
     padding: 2vh;
 
 }
@@ -21,8 +23,10 @@
 }
 
 .image-header {
-
+    left: 0;
     position:absolute;
+    bottom: 2%;
+    margin-left: 80px;
     width: 10% !important;
 
 }
